@@ -1,0 +1,2 @@
+tclsh SignedTimeChecker.tcl
+pause

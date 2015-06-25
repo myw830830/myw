@@ -1,0 +1,2 @@
+tclsh RbsSwChecker.tcl
+pause

@@ -1,0 +1,124 @@
+A new tool - EvoC formatter has been implemented which can help to perform EPB boards formatting on RNC8200, you don't have to make it board by board anymore, just one command is enough to format all the EPB boards on a RNC8200 node. 
+
+Please follow steps below to use it:
+      
+   1) Install Cygwin Interpreters-> expect & lib -> tcltk: TCL/Tk libraries 
+           
+   2) Copy expect.ext -> cygwin/bin, copy libexpect526.a -> cygwin/lib 
+           
+   3) Start the tool like below:
+           
+    ./EvoC_formatter -ip 10.185.65.21 -user rnc -pw rnc 
+	
+	Outputs: 
+           
+    LOGIN: Connected to target node 10.185.65.21.              
+	Starting board scan...
+			
+		CMXB3 EGEM2 ROJ208392/1 R7D found in 0:0
+		SCXB3 ROJ208395/1 R4B found in 0:1
+		CMXB3 EGEM2 ROJ208392/1 R7D found in 0:2
+		EPB1 ROJ208394/1 R1C found in 0:3
+		EPB1 ROJ208394/1 R1D found in 0:4
+		EPB1 ROJ208394/1 R1B found in 0:5
+		EPB1 ROJ208394/1 R1C/1 found in 0:6
+		EVOET ROJ208467/1 R1E found in 0:7
+		EPB1 ROJ208394/1 R1B found in 0:8
+		EPB1 ROJ208394/1 R1B found in 0:9
+		EPB1 ROJ208394/2 P1A found in 0:10
+		EPB1 ROJ208394/1 R1B found in 0:11
+		EPB1 ROJ208394/2 P1A found in 0:12
+		EPB1 ROJ208394/1 P1G/1 found in 0:13
+		EPB1 ROJ208394/1 P1G/1 found in 0:14
+		EPB1 ROJ208394/1 R1B found in 0:15
+		EPB1 ROJ208394/1 P1G/1 found in 0:16
+		EPB1 ROJ208394/1 P1G/1 found in 0:17
+		EPB1 ROJ208394/1 P1G/1 found in 0:18
+		EVOET ROJ208467/1 R1C found in 0:19
+		EPB1 ROJ208394/1 R1B found in 0:20
+		EPB1 ROJ208394/1 P1G/1 found in 0:21
+		EPB1 ROJ208394/1 P1G/1 found in 0:22
+		EPB1 ROJ208394/1 R1B found in 0:23
+		EPB1 ROJ208394/1 R1B found in 0:24
+		EPB1 ROJ208394/1 R1C found in 0:25
+		EPB1 ROJ208394/1 R1D found in 0:26
+		SCXB3 ROJ208395/1 R4B found in 0:27
+
+		CMXB3 EGEM2 ROJ208392/1 R6A found in 1:0
+		SCXB3 ROJ208395/1 R4B found in 1:1
+		CMXB3 EGEM2 ROJ208392/1 R6A found in 1:2
+		EPB1 ROJ208394/1 R1B found in 1:3
+		EPB1 ROJ208394/1 R1D found in 1:4
+		EPB1 ROJ208394/1 R1B found in 1:5
+		EPB1 ROJ208394/1 R1B found in 1:6
+		EVOET ROJ208467/1 R1C found in 1:7
+		EPB1 ROJ208394/1 R1B found in 1:8
+		EPB1 ROJ208394/1 R1B found in 1:9
+		EPB1 ROJ208394/1 R1B found in 1:10
+		EPB1 ROJ208394/1 R1B found in 1:11
+		EPB1 ROJ208394/1 R1B found in 1:12
+		EPB1 ROJ208394/1 R1B found in 1:13
+		EPB1 ROJ208394/1 R1B found in 1:14
+		EPB1 ROJ208394/1 R1B found in 1:15
+		EPB1 ROJ208394/1 P1G found in 1:16
+		EPB1 ROJ208394/1 R1B found in 1:17
+		EPB1 ROJ208394/1 R1B found in 1:18
+		EVOET ROJ208467/1 R1C found in 1:19
+		EPB1 ROJ208394/1 R1B found in 1:20
+		EPB1 ROJ208394/1 R1B found in 1:21
+		EPB1 ROJ208394/1 R1B found in 1:22
+		EPB1 ROJ208394/1 R1B found in 1:23
+		EPB1 ROJ208394/1 R1B found in 1:24
+		EPB1 ROJ208394/1 R1B found in 1:25
+		EPB1 ROJ208394/1 R1B found in 1:26
+		SCXB3 ROJ208395/1 R4B found in 1:27
+
+		CMXB3 EGEM2 ROJ208392/1 R6A found in 3:0
+		SCXB3 ROJ208395/1 R4B found in 3:1
+		CMXB3 EGEM2 ROJ208392/1 R6A found in 3:2
+		EPB1 ROJ208394/1 R1B found in 3:3
+		EPB1 ROJ208394/1 R1B found in 3:4
+		EPB1 ROJ208394/1 R1B found in 3:5
+		EPB1 ROJ208394/1 R1B found in 3:6
+		EVOET ROJ208467/1 R1C found in 3:7
+		EPB1 ROJ208394/1 R1B found in 3:8
+		EPB1 ROJ208394/1 P1G/1 found in 3:9
+		EPB1 ROJ208394/1 R1B found in 3:10
+		EPB1 ROJ208394/1 R1B found in 3:11
+		EPB1 ROJ208394/1 R1B found in 3:12
+		EPB1 ROJ208394/1 P1G/1 found in 3:13
+		EPB1 ROJ208394/1 P1G/1 found in 3:14
+		EPB1 ROJ208394/1 R1B found in 3:15
+		EPB1 ROJ208394/1 R1B found in 3:16
+		EPB1 ROJ208394/1 R1B found in 3:17
+		EPB1 ROJ208394/1 R1B found in 3:18
+		EVOET ROJ208467/1 R1C found in 3:19
+		EPB1 ROJ208394/1 R1B found in 3:20
+		EPB1 ROJ208394/1 R1B found in 3:21
+		EPB1 ROJ208394/1 R1B found in 3:22
+		EPB1 ROJ208394/1 R1B found in 3:23
+		EPB1 ROJ208394/1 R1B found in 3:24
+		EPB1 ROJ208394/1 R1B found in 3:25
+		EPB1 ROJ208394/1 R1B found in 3:26
+		SCXB3 ROJ208395/1 R4A/A found in 3:27
+	   
+	Scanning Finished.
+
+	Starting board formatting...	
+	
+        (ddrive_format) Formatting of /d successfully done for board : EPB1 in 0:3
+        (ddrive_format) Formatting of /d successfully done for board : EPB1 in 0:4
+	    (ddrive_format) Formatting of /d successfully done for board : EPB1 in 0:5
+	    (ddrive_format) Formatting of /d successfully done for board : EPB1 in 0:6
+		...
+	    (ddrive_format) Formatting of /d successfully done for board : EPB1 in 1:3
+	    (ddrive_format) Formatting of /d successfully done for board : EPB1 in 1:4
+	    (ddrive_format) Formatting of /d successfully done for board : EPB1 in 1:5
+	    (ddrive_format) Formatting of /d successfully done for board : EPB1 in 1:6
+		...
+	    (ddrive_format) Formatting of /d successfully done for board : EPB1 in 3:23
+	    (ddrive_format) Formatting of /d successfully done for board : EPB1 in 3:24
+	    (ddrive_format) Formatting of /d successfully done for board : EPB1 in 3:25
+	    (ddrive_format) Formatting of /d successfully done for board : EPB1 in 3:26
+		
+	All EPB boards formatted successfully.

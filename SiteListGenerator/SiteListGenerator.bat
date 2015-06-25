@@ -1,0 +1,2 @@
+tclsh SiteListGenerator.tcl RNS13_all_new.sel
+pause

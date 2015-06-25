@@ -1,0 +1,2 @@
+tclsh MoDiffFilter.tcl Rnc17_dcg_k_before_upgrade_diff hdVolumeDFreespace,hdVolumePFreespace,topologyChangeTime,ManagedElement,ConfigurationVersion,Sctp,NodeSynch,ExternalUtranCell,Jvm,hwTestResult,UpgradePackage,reservedBy,MOonlyInDump1,MOonlyInDump2,ATTRonlyInDump1,ActiveOtherLMs,WebServer,availabilityStatus,lastUpPiChange,ReliableProgramUniter,hwTestStatus
+pause
